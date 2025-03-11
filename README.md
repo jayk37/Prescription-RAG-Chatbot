@@ -15,16 +15,23 @@ https://github.com/user-attachments/assets/50be6ef9-5f33-4864-9adf-b0742fc0a809
 ---
 
 ## **🌟 Features**
-📄 **Real-time FDA Drug Retrieval:** Uses `BeautifulSoup` to **scrape official FDA prescription PDFs** dynamically based on user queries.  
-📌 **Structured Knowledge Extraction:** Converts PDFs into **Markdown format** using `PyMuPDF`, ensuring **better readability** and efficient processing.  
+📄 **Real-time FDA Drug Retrieval:** 
+   - Uses `BeautifulSoup` to **scrape official FDA prescription PDFs** dynamically based on user queries.  
+
+📌 **Structured Knowledge Extraction:** 
+   - Converts PDFs into **Markdown format** using `PyMuPDF`, ensuring **better readability** and efficient processing.  
+
 🔍 **Semantic Search with Vector Embeddings:**  
    - **ChromaDB** stores **chunked** drug information as embeddings.  
-   - **OpenAI Llama Instruct Models** generate **query embeddings** for **fuzzy & semantic similarity search**.  
+   - **Nomic AI's BERT Models** generate **query embeddings** for **fuzzy & semantic similarity search**.  
+
 🤖 **LLM-Enhanced Responses:**  
-   - Top matched document chunks are **retrieved and injected** into an **LLM prompt** for **high-quality response generation**.  
+   - Top matched document chunks are **retrieved and injected** into an **OpenAI API LLM prompt** for **high-quality response generation**.  
+
 💬 **Full-Stack Real-Time Chat Interface (ChatGPT-Style):**  
    - **React.js frontend** with **reusable components, hooks, async requests, and UI state management.**  
    - **FastAPI backend** for **efficient data processing and API calls**.  
+
 💾 **Permanent Chat Sessions:**  
    - **MongoDB stores chat history**, enabling **persistent** user conversations.  
 
@@ -59,9 +66,8 @@ https://github.com/user-attachments/assets/50be6ef9-5f33-4864-9adf-b0742fc0a809
 This project aligns with **high-performance, scalable software** requirements, including:
 
 🔹 **Information Retrieval:** Efficiently indexes and retrieves FDA drug documents using **vector embeddings & LLM-based search**.  
-🔹 **Database & Storage Optimization:** Uses **ChromaDB** for **vector similarity searches** and **MongoDB** for **persisting structured chat history**.  
+🔹 **Database & Storage Optimization:** Uses **ChromaDB** for **vector similarity search** and **MongoDB** for **persisting structured chat history**.  
 🔹 **Low-Latency API Design:** Built using **FastAPI** for **high-speed processing** and **async execution**.  
-🔹 **Cloud-Ready Architecture:** Supports **distributed scaling** by allowing **embedding storage in cloud databases** (MongoDB Atlas, AWS, etc.).  
 🔹 **Scalable Frontend with React.js:** Implements **reusable components, hooks, state management**, and **real-time UI updates**.  
 🔹 **Optimized Web Scraping & Parsing:** Uses **BeautifulSoup** and **PyMuPDF** to **extract structured knowledge** from unstructured PDFs.  
 🔹 **LLM Orchestration:** Integrates **OpenAI APIs (Llama Instruct Models)** to **generate context-aware, conversational responses**.  
