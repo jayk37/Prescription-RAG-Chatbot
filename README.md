@@ -4,6 +4,16 @@
 
 ---
 
+## 🎥 Demo
+
+
+
+https://github.com/user-attachments/assets/50be6ef9-5f33-4864-9adf-b0742fc0a809
+
+
+
+---
+
 ## **🌟 Features**
 ✅ **Real-time FDA Drug Retrieval:** Uses `BeautifulSoup` to **scrape official FDA prescription PDFs** dynamically based on user queries.  
 ✅ **Structured Knowledge Extraction:** Converts PDFs into **Markdown format** using `PyMuPDF`, ensuring **better readability** and efficient processing.  
