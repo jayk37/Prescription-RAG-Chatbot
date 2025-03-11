@@ -1,4 +1,4 @@
-# 💊 Prescription Drug Chatbot (RAG-Based ChatGPT Clone)
+# 💊 Prescription Drug Chatbot (RAG-Based GPT Clone)
 
 🚀 A **Retrieval-Augmented Generation (RAG)** application designed to **intelligently fetch and process prescription drug data** from the **FDA website**. This application combines **state-of-the-art LLM embeddings, vector databases, and an interactive real-time UI** to provide **ChatGPT-like experiences** while ensuring reliable, up-to-date drug information.
 
