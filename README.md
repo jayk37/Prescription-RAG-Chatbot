@@ -70,7 +70,6 @@ This project aligns with **high-performance, scalable software** requirements, i
 ## **📌 Future Enhancements Coming Soon!**
 🔹 **Multi-document RAG:** Fetch multiple FDA documents for enhanced accuracy.  
 🔹 **Fine-tuned Model:** Replace OpenAI API with a **custom fine-tuned LLM** on **prescription datasets**.
-🔹 **Cloud Deployment:** Deploy backend on **AWS Lambda/GCP Cloud Run** & frontend on **Vercel/Netlify**.
 
 ---
 
