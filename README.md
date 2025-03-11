@@ -15,18 +15,19 @@ https://github.com/user-attachments/assets/50be6ef9-5f33-4864-9adf-b0742fc0a809
 ---
 
 ## **🌟 Features**
-✅ **Real-time FDA Drug Retrieval:** Uses `BeautifulSoup` to **scrape official FDA prescription PDFs** dynamically based on user queries.  
-✅ **Structured Knowledge Extraction:** Converts PDFs into **Markdown format** using `PyMuPDF`, ensuring **better readability** and efficient processing.  
-✅ **Semantic Search with Vector Embeddings:**  
+📄 **Real-time FDA Drug Retrieval:** Uses `BeautifulSoup` to **scrape official FDA prescription PDFs** dynamically based on user queries.  
+📌 **Structured Knowledge Extraction:** Converts PDFs into **Markdown format** using `PyMuPDF`, ensuring **better readability** and efficient processing.  
+🔍 **Semantic Search with Vector Embeddings:**  
    - **ChromaDB** stores **chunked** drug information as embeddings.  
    - **OpenAI Llama Instruct Models** generate **query embeddings** for **fuzzy & semantic similarity search**.  
-✅ **LLM-Enhanced Responses:**  
+🤖 **LLM-Enhanced Responses:**  
    - Top matched document chunks are **retrieved and injected** into an **LLM prompt** for **high-quality response generation**.  
-✅ **Full-Stack Real-Time Chat Interface (ChatGPT-Style):**  
+💬 **Full-Stack Real-Time Chat Interface (ChatGPT-Style):**  
    - **React.js frontend** with **reusable components, hooks, async requests, and UI state management.**  
    - **FastAPI backend** for **efficient data processing and API calls**.  
-✅ **Permanent Chat Sessions:**  
+💾 **Permanent Chat Sessions:**  
    - **MongoDB stores chat history**, enabling **persistent** user conversations.  
+
 
 ---
 
