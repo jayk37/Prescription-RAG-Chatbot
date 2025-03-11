@@ -1,0 +1,122 @@
+/* ChatInterface.css */
+
+/* Optional top header for chat */
+.chat-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 16px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .chat-header .chat-header-title {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  
+  .chat-header .chat-header-subtitle {
+    font-size: 14px;
+    color: #999;
+  }
+  
+  /* Main container for chat */
+  .chat-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* or another height constraint if you prefer */
+    background-color: #f5f7fa;
+    width: 100vw;
+  }
+  
+  /* Where messages appear */
+  .chat-messages {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Each message bubble */
+  .chat-message {
+    max-width: 60%;
+    margin-bottom: 16px;
+    padding: 10px 15px;
+    border-radius: 18px;
+    font-size: 14px;
+    line-height: 1.4;
+    position: relative;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Assistant messages: left-aligned, lighter bubble */
+  .chat-message.assistant {
+    align-self: flex-start;
+    background-color: #ffffff;
+    color: #333;
+    border-top-left-radius: 0;
+  }
+  
+  /* User messages: right-aligned, accent color */
+  .chat-message.user {
+    align-self: flex-end;
+    background-color: #2C3E50; /* change to your preferred accent color */
+    color: #fff;
+    border-top-right-radius: 0;
+  }
+  
+  /* Optional timestamp styling at the bottom of each bubble */
+  .timestamp {
+    display: block;
+    margin-top: 6px;
+    font-size: 12px;
+    color: #999;
+    text-align: right;
+  }
+  
+  /* Chat input area at the bottom */
+  .chat-input-form {
+    display: flex;
+    align-items: center;
+    padding: 10px 16px;
+    border-top: 1px solid #ddd;
+    background-color: #fff;
+  }
+  
+  .chat-input {
+    flex: 1;
+    padding: 10px 14px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    outline: none;
+  }
+  
+  /* Send button */
+  .send-button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    background-color: #1ABC9C; /* accent color */
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .send-button:hover {
+    background-color: #357ab8;
+  }
+  
+  /* Footer at the bottom */
+  .chat-footer {
+    text-align: center;
+    padding: 8px;
+    background-color: #2C3E50;
+    color: #fff;
+    font-size: 12px;
+  }
+  
+  
