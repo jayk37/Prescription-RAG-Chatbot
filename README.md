@@ -84,6 +84,3 @@ We welcome contributions! To get started:
 4️⃣ Open a PR 🔥  
 
 ---
-
-## **📜 License**
-MIT License © 2025
